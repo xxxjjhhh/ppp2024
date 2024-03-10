@@ -7,5 +7,5 @@ height = 170
 
 mHeight = 170/100
 
-bmi = weight / mHeight*mHeight
+bmi = weight / (mHeight*mHeight)
 print(bmi)
