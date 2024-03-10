@@ -4,5 +4,5 @@ top = 3
 bottom = 5
 height = 4
 
-area = (3 + 5) * 4 / 2
+area = (top + bottom) * height / 2
 print(area)
