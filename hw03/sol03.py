@@ -3,6 +3,7 @@
 
 import math
 
+#input
 radius = int(input("반지름을 입력하세요. : "))
 
 area = radius * radius * math.pi
