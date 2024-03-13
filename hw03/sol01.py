@@ -4,4 +4,4 @@
 c_temp = int(input("섭씨 온도를 입력하세요.(°C) : "))
 f_temp = ((c_temp * 9/5) + 32)
 
-print("섭씨 {}°C는 화씨 {}°F 입니다.".format(c_temp, f_temp))
+print(f"섭씨 {c_temp}°C는 화씨 {f_temp}°F 입니다.")
