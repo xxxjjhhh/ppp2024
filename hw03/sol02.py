@@ -9,7 +9,7 @@ weight = int(input("몸무게를 입력하세요.(kg) : "))
 height = int(input("키를 입력하세요.(cm) : "))
 
 #cm -> m
-mHeight = 170/100
+m_height = 170/100
 
-bmi = weight / math.pow(mHeight, 2)
+bmi = weight / math.pow(m_height, 2)
 print(f"몸무게 : {weight}kg, 키 : {height}cm의 BMI는 {bmi}입니다.")
