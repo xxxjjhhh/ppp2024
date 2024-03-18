@@ -16,13 +16,17 @@ bmi = weight / math.pow(m_height, 2)
 print(f"몸무게 : {weight}kg, 키 : {height}cm의 BMI는 {bmi}입니다.")
 
 #비만 알림
-if 23 <= bmi && bmi <=24.9:
-  print("비만 전단계입니다.")
-elif 25 <= bmi && bmi <= 29.9:
-  print("1단계 비만입니다.")
-elif 30 <= bmi && bmi <== 34.9:
-  print("2단계 비만입니다.")
+if (23 <= bmi) and (bmi < 25): 
+    print("비만 전단계입니다.")
+
+elif (25 <= bmi) and (bmi < 30):
+    print("1단계 비만입니다.")
+
+elif (30 <= bmi) and (bmi < 35):
+    print("2단계 비만입니다.")
+
 elif 35 <= bmi:
-  print("3단계 비만입니다.")
+    print("3단계 비만입니다.")
+
 else:
-  ...
+    ...
