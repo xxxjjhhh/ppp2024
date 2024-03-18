@@ -14,16 +14,14 @@ if (x == 0) or (y == 0):
         print("y축에 위치합니다.")
     else:
         print("x축에 위치합니다.")
-        
+
 else:
     if x > 0:
-        
         if y > 0:
             print("1사분면에 위치합니다.")
         else:
             print("4사분면에 위치합니다.")
     else:
-        
         if y > 0:
             print("2사분면에 위치합니다.")
         else:
