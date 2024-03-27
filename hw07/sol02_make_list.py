@@ -2,7 +2,7 @@
 #
 # 1-n까지 리스트를 돌려주는 함수를 만드시오. 함수는 get_range_list(n)
 
-def get_range_list(n):
+def get_range_list(n: int) -> list:
 
     return list(range(1, n + 1, 1))
 
