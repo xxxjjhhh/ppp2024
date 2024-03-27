@@ -18,7 +18,7 @@ def main() -> None:
     
     data = [0]
 
-    # 합계 메소드
+    # 평균 메소드
     avg = average(data)
     if avg != None:
         print(f"리스트에 담긴 수의 평균은 {avg}입니다.")
